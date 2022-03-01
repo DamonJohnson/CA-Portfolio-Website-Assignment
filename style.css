@@ -5,163 +5,406 @@
   margin: 0;
   padding: 0;
 }
-
-nav {
-  z-index: 1;
-  position: absolute;
-  padding: 0.5rem;
-  display: flex;
-  font-family: "Roboto Condensed";
+@media screen and (min-width: 1px) and (max-width: 600px) {
+  * nav {
+    z-index: 1;
+    position: absolute;
+    padding: 0.5rem;
+    display: flex;
+    font-family: "Roboto Condensed";
+  }
+  * nav ul {
+    list-style: none;
+    display: flex;
+    margin-right: auto;
+    align-items: center;
+  }
+  * nav ul li {
+    padding: 0 2vw;
+  }
+  * nav ul a {
+    text-decoration: none;
+    color: seashell;
+  }
+  * #hero {
+    top: 0;
+    left: 0;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 0;
+  }
+  * #hero #my-info {
+    z-index: 2;
+    font-family: "Vesper Libre", "Gideon Roman", serif;
+    text-align: center;
+    margin-bottom: 15%;
+  }
+  * #hero #my-info h1 {
+    color: seashell;
+    padding: 1rem;
+    font-size: 6vh;
+  }
+  * #hero #my-info h3 {
+    color: seashell;
+    padding: 1rem;
+    font-size: 5vh;
+  }
+  * #hero #video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+  }
+  * #hero #video-container .skills-tabs-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background: none;
+    display: flex;
+    align-items: flex-end;
+    z-index: 2;
+    color: seashell;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 2.5vh;
+  }
+  * #hero #video-container .skills-tabs-container ul {
+    margin-left: 2vw;
+    padding-right: 1rem;
+    flex: 20vw;
+    display: flex;
+    justify-content: space-around;
+  }
+  * #hero #video-container .skills-tabs-container ul li {
+    position: relative;
+    list-style: none;
+    padding: 0 2vw 0 2vw;
+    width: 20vw;
+  }
+  * #hero #video-container .skills-tabs-container ul li h4 {
+    margin-bottom: -22vh;
+    padding-top: 7em;
+  }
+  * #hero #video-container .skills-tabs-container ul li .skill-text {
+    position: relative;
+    font-size: 2.5vh;
+    bottom: -100px;
+    opacity: 0;
+  }
+  * #hero #video-container .skills-tabs-container ul li:hover {
+    padding: 0 2vw 1vw 2vw;
+    transition: 4s;
+    margin-bottom: 0;
+  }
+  * #hero #video-container .skills-tabs-container ul li:hover h4 {
+    padding-top: 0;
+    margin-bottom: 0;
+    transition: 0.8s;
+  }
+  * #hero #video-container .skills-tabs-container ul li:hover .skill-text {
+    opacity: 1;
+    transition: 1s;
+    bottom: 0px;
+  }
+  * #social-links {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20vh;
+  }
+  * #social-links a {
+    padding: 15px;
+  }
+  * footer {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+  }
 }
-nav ul {
-  list-style: none;
-  display: flex;
-  margin-right: auto;
-  align-items: center;
+@media screen and (min-width: 601px) and (max-width: 1000px) {
+  * nav {
+    z-index: 1;
+    position: absolute;
+    padding: 0.5rem;
+    display: flex;
+    font-family: "Roboto Condensed";
+  }
+  * nav ul {
+    list-style: none;
+    display: flex;
+    margin-right: auto;
+    align-items: center;
+  }
+  * nav ul li {
+    padding: 0 1rem;
+  }
+  * nav ul a {
+    text-decoration: none;
+    color: seashell;
+  }
+  * #hero {
+    top: 0;
+    left: 0;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 0;
+  }
+  * #hero #my-info {
+    z-index: 2;
+    font-family: "Vesper Libre", "Gideon Roman", serif;
+    text-align: center;
+    margin-bottom: 15%;
+  }
+  * #hero #my-info h1 {
+    color: seashell;
+    padding: 1rem;
+    font-size: 6vh;
+  }
+  * #hero #my-info h3 {
+    color: seashell;
+    padding: 1rem;
+    font-size: 5vh;
+  }
+  * #hero #video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+  }
+  * #hero #video-container .skills-tabs-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background: none;
+    display: flex;
+    align-items: flex-end;
+    z-index: 2;
+    color: seashell;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 2.5vh;
+  }
+  * #hero #video-container .skills-tabs-container ul {
+    margin-left: 2vw;
+    flex: 20vw;
+    display: flex;
+    justify-content: space-around;
+  }
+  * #hero #video-container .skills-tabs-container ul li {
+    list-style: none;
+    padding: 0 0vw 0 0vw;
+    width: 20vw;
+  }
+  * #hero #video-container .skills-tabs-container ul li h4 {
+    padding-top: 4rem;
+  }
+  * #hero #video-container .skills-tabs-container ul li .skill-text {
+    font-size: 2.5vh;
+    opacity: 0;
+  }
+  * #hero #video-container .skills-tabs-container ul li:hover {
+    padding: 0 2vw 1vw 2vw;
+    transition: 4s;
+    margin-bottom: 0;
+  }
+  * #hero #video-container .skills-tabs-container ul li:hover h4 {
+    padding-top: 0;
+    margin-bottom: 0;
+    transition: 0.6s;
+  }
+  * #hero #video-container .skills-tabs-container ul li:hover .skill-text {
+    opacity: 1;
+    transition: s;
+  }
+  * #social-links {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20vh;
+  }
+  * #social-links a {
+    padding: 15px;
+  }
+  * footer {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+  }
 }
-nav ul li {
-  padding: 0 1rem;
-}
-nav ul a {
-  text-decoration: none;
-  color: seashell;
-}
-
-#hero {
-  top: 0;
-  left: 0;
-  position: relative;
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  z-index: 0;
-}
-#hero #my-info {
-  z-index: 2;
-  font-family: "Vesper Libre", "Gideon Roman", serif;
-  text-align: center;
-  margin-bottom: 15%;
-}
-#hero #my-info h1 {
-  color: seashell;
-  padding: 1rem;
-  font-size: 8vh;
-}
-#hero #my-info h3 {
-  color: seashell;
-  padding: 1rem;
-  font-size: 5vh;
-}
-#hero #video-container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 0;
-}
-#hero #video-container .skills-tabs-container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  width: 100vw;
-  background: none;
-  display: flex;
-  align-items: flex-end;
-  z-index: 2;
-  color: seashell;
-  font-family: "Roboto Condensed", sans-serif;
-  font-size: 2.5vh;
-}
-#hero #video-container .skills-tabs-container ul {
-  margin-left: 2vw;
-  flex: 20vw;
-  display: flex;
-  justify-content: space-around;
-}
-#hero #video-container .skills-tabs-container ul li {
-  list-style: none;
-  padding: 0 2vw 0rem 2vw;
-  margin-bottom: -6vh;
-  width: 20vw;
-}
-#hero #video-container .skills-tabs-container ul li .skill-text {
-  font-size: 2vh;
-  opacity: 0;
-}
-#hero #video-container .skills-tabs-container ul li:hover {
-  list-style: none;
-  padding: 0 2vw 0rem 2vw;
-  color: seashell;
-  transition: 0.2s;
-  margin-bottom: 0;
-}
-#hero #video-container .skills-tabs-container ul li:hover .skill-text {
-  opacity: 1;
-}
-
-#blog-section h2 {
-  font-size: 5vh;
-  font-family: "Roboto Condensed", sans-serif;
-  margin: 10vh 0 5vh 10vh;
-}
-#blog-section #article-container {
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: flex-start;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-#blog-section #article-container .blog-article {
-  position: relative;
-  width: 400px;
-}
-#blog-section #article-container .blog-article img {
-  width: 100%;
-  border-radius: 10%;
-  z-index: 0;
-  margin-top: 1vh;
-  margin-bottom: 1vh;
-}
-#blog-section #article-container .blog-article .article-text {
-  position: absolute;
-  top: 55%;
-  left: 0;
-  width: 70%;
-  text-align: justify;
-  z-index: 1;
-  background-color: seashell;
-  padding: 20px 20px 20px 50px;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-}
-#blog-section #article-container .blog-article .article-text h4 {
-  font-family: "Vesper Libre", "Gideon Roman", serif, serif;
-  color: black;
-  font-size: 2rem;
-}
-#blog-section #article-container .blog-article .article-text p {
-  color: black;
-  font-family: "Roboto Condensed", sans-serif;
-}
-
-#social-links {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  padding-top: 20vh;
-}
-#social-links a {
-  padding: 15px;
-}
-
-footer {
-  font-family: sans-serif;
-  display: flex;
-  justify-content: center;
+@media screen and (min-width: 1001px) {
+  * nav {
+    z-index: 1;
+    position: absolute;
+    padding: 0.5rem;
+    display: flex;
+    font-family: "Roboto Condensed";
+  }
+  * nav ul {
+    list-style: none;
+    display: flex;
+    margin-right: auto;
+    align-items: center;
+  }
+  * nav ul li {
+    padding: 0 1rem;
+  }
+  * nav ul a {
+    text-decoration: none;
+    color: seashell;
+  }
+  * #hero {
+    top: 0;
+    left: 0;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 0;
+  }
+  * #hero #my-info {
+    z-index: 2;
+    font-family: "Vesper Libre", "Gideon Roman", serif;
+    text-align: center;
+    margin-bottom: 15%;
+  }
+  * #hero #my-info h1 {
+    color: seashell;
+    padding: 1rem;
+    font-size: 6vh;
+  }
+  * #hero #my-info h3 {
+    color: seashell;
+    padding: 1rem;
+    font-size: 5vh;
+  }
+  * #hero #video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+  }
+  * #hero #video-container .skills-tabs-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background: none;
+    display: flex;
+    align-items: flex-end;
+    z-index: 2;
+    color: seashell;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 2.5vh;
+  }
+  * #hero #video-container .skills-tabs-container ul {
+    margin-left: 2vw;
+    flex: 20vw;
+    display: flex;
+    justify-content: space-around;
+  }
+  * #hero #video-container .skills-tabs-container ul li {
+    position: relative;
+    list-style: none;
+    padding: 0 2vw 0 2vw;
+    width: 20vw;
+  }
+  * #hero #video-container .skills-tabs-container ul li h4 {
+    margin-bottom: -4vh;
+    padding-top: 4rem;
+  }
+  * #hero #video-container .skills-tabs-container ul li .skill-text {
+    font-size: 2.5vh;
+    opacity: 0;
+  }
+  * #hero #video-container .skills-tabs-container ul li:hover {
+    padding: 0 2vw 1vw 2vw;
+    transition: 4s;
+    margin-bottom: 0;
+  }
+  * #hero #video-container .skills-tabs-container ul li:hover h4 {
+    padding-top: 0;
+    margin-bottom: 0;
+    transition: 0.6s;
+  }
+  * #hero #video-container .skills-tabs-container ul li:hover .skill-text {
+    opacity: 1;
+    transition: 1s;
+  }
+  * #blog-section h2 {
+    font-size: 5vh;
+    font-family: "Roboto Condensed", sans-serif;
+    margin: 10vh 0 5vh 10vh;
+  }
+  * #blog-section #article-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  * #blog-section #article-container .blog-article {
+    position: relative;
+    width: 400px;
+  }
+  * #blog-section #article-container .blog-article img {
+    width: 100%;
+    border-radius: 10%;
+    z-index: 0;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+  }
+  * #blog-section #article-container .blog-article .article-text {
+    position: absolute;
+    top: 55%;
+    left: 0;
+    width: 70%;
+    text-align: justify;
+    z-index: 1;
+    background-color: seashell;
+    padding: 20px 20px 20px 50px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  * #blog-section #article-container .blog-article .article-text h4 {
+    font-family: "Vesper Libre", "Gideon Roman", serif, serif;
+    color: black;
+    font-size: 2rem;
+  }
+  * #blog-section #article-container .blog-article .article-text p {
+    color: black;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+  * #social-links {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20vh;
+  }
+  * #social-links a {
+    padding: 15px;
+  }
+  * footer {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

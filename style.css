@@ -127,7 +127,7 @@
   }
   * #blog-section #article-container .blog-article {
     position: relative;
-    width: 400px;
+    width: 350px;
   }
   * #blog-section #article-container .blog-article img {
     width: 100%;
@@ -136,26 +136,26 @@
     margin-top: 1vh;
     margin-bottom: 1vh;
   }
+  * #blog-section #article-container .blog-article .blog-article:hover {
+    width: 420px;
+    transition: 0.3s;
+  }
   * #blog-section #article-container .blog-article .article-text {
     position: absolute;
-    top: 55%;
+    top: 53%;
     left: 0;
-    width: 70%;
+    width: auto;
     text-align: justify;
     z-index: 1;
-    background-color: seashell;
-    padding: 20px 20px 20px 50px;
+    background-color: rgba(0, 0, 0, 0.571);
+    padding: 1rem;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
   }
   * #blog-section #article-container .blog-article .article-text h4 {
     font-family: "Vesper Libre", "Gideon Roman", serif, serif;
-    color: black;
+    color: seashell;
     font-size: 2rem;
-  }
-  * #blog-section #article-container .blog-article .article-text p {
-    color: black;
-    font-family: "Roboto Condensed", sans-serif;
   }
   * #social-links {
     width: 100%;
@@ -288,7 +288,7 @@
   }
   * #blog-section #article-container .blog-article {
     position: relative;
-    width: 400px;
+    width: 350px;
   }
   * #blog-section #article-container .blog-article img {
     width: 100%;
@@ -299,24 +299,27 @@
   }
   * #blog-section #article-container .blog-article .article-text {
     position: absolute;
-    top: 55%;
+    top: 53%;
     left: 0;
-    width: 70%;
+    width: auto;
     text-align: justify;
     z-index: 1;
-    background-color: seashell;
-    padding: 1rem 1rem 1rem 1rem;
+    background-color: rgba(0, 0, 0, 0.571);
+    padding: 1rem;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
   }
+  * #blog-section #article-container .blog-article .article-text a {
+    text-decoration: none;
+  }
   * #blog-section #article-container .blog-article .article-text h4 {
     font-family: "Vesper Libre", "Gideon Roman", serif, serif;
-    color: black;
+    color: seashell;
     font-size: 2rem;
   }
-  * #blog-section #article-container .blog-article .article-text p {
-    color: black;
-    font-family: "Roboto Condensed", sans-serif;
+  * #blog-section #article-container .blog-article .article-text .blog-article:hover {
+    width: 400px;
+    transition: 0.3s;
   }
   * #social-links {
     width: 100%;
@@ -479,10 +482,6 @@
     font-family: "Vesper Libre", "Gideon Roman", serif, serif;
     color: seashell;
     font-size: 2rem;
-  }
-  * #blog-section #article-container .blog-article .article-text p {
-    color: black;
-    font-family: "Roboto Condensed", sans-serif;
   }
   * #blog-section #article-container .blog-article:hover {
     width: 420px;

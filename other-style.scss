@@ -1,0 +1,299 @@
+@import url("https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Vesper+Libre:wght@700&display=swap");
+
+// Imported fonts
+@import url("https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Vesper+Libre:wght@700&display=swap");
+
+// font-family: 'Gideon Roman', cursive;
+// font-family: "Roboto Condensed", sans-serif;
+
+// Variable declaration
+$primarycolor: black;
+$secondarycolor: seashell;
+$backdrop: #656565cb;
+$cursive: "Vesper Libre", "Gideon Roman", serif;
+$sans-serif: "Roboto Condensed", sans-serif;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 1.3rem;
+}
+
+// Navbar styling
+nav {
+  z-index: 1;
+  position: absolute;
+  padding: 0.5rem;
+  display: flex;
+  font-family: "Roboto Condensed";
+
+  ul {
+    list-style: none;
+    display: flex;
+    margin-right: auto;
+    align-items: center;
+
+    li {
+      padding: 0 0.8vw;
+    }
+
+    a {
+      text-decoration: none;
+      color: $primarycolor;
+    }
+  }
+}
+
+#social-links {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 20vh;
+
+  a {
+    padding: 15px;
+  }
+}
+
+footer {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
+
+// Resume Page Styling
+
+h1 {
+  font-family: $sans-serif;
+  padding: 6rem 0 1rem 10vw;
+  font-size: 3rem;
+}
+
+#download-link {
+  font-family: $sans-serif;
+  padding-bottom: 1rem;
+  margin-left: 10vw;
+}
+
+#pdf-viewer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+iframe {
+  width: 80vw;
+  height: 80vh;
+}
+
+// About Me Styling
+
+@media screen and (max-width: 300px) {
+  #about-me-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .other-para {
+    font-family: $sans-serif;
+    width: 100%;
+    padding: 0rem 0rem;
+    order: 2;
+  }
+
+  #profile-pic {
+    order: 3;
+    width: 300px;
+    padding: 1rem;
+  }
+}
+
+@media screen and (min-width: 301px) {
+  #about-me-body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .other-para {
+    order: 1;
+    font-family: $sans-serif;
+    width: 70%;
+    padding: 0rem 2rem;
+  }
+
+  #profile-pic {
+    order: 2;
+    width: 400px;
+    padding: 2rem;
+  }
+}
+
+// Blog Styling for Desktop
+@media screen and (min-width: 501px) {
+  .blog-heading {
+    font-family: $sans-serif;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 5vw;
+  }
+
+  button {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    font-family: $sans-serif;
+    font-size: 1.3rem;
+    transition-duration: 0.2s;
+    border-radius: 1rem;
+    margin: 1rem;
+  }
+
+  button:hover {
+    background-color: rgb(193, 193, 193);
+    color: $secondarycolor;
+  }
+}
+
+// Blog Styling for Deskto
+h4 {
+  position: relative;
+  font-family: $sans-serif;
+  left: 10%;
+}
+
+@media screen and (max-width: 1350px) {
+  .other-para {
+    width: 90%;
+    padding: 0.5rem;
+    margin: 0.5rem;
+  }
+
+  .blog-heading {
+    font-family: $sans-serif;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  button {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    font-family: $sans-serif;
+    transition-duration: 0.2s;
+    border-radius: 1rem;
+    margin: 1rem;
+  }
+
+  button:hover {
+    background-color: rgb(176, 176, 176);
+    color: $secondarycolor;
+  }
+}
+
+// Contact Form Styling Mobile and Tablet
+@media screen and (max-width: 1300px) {
+  label {
+    font-family: $sans-serif;
+    font-size: 1.3rem;
+  }
+
+  #name-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .name-input {
+    margin: 1rem;
+    width: 50%;
+
+    input {
+      width: 100%;
+      padding: 1rem 0;
+    }
+  }
+
+  #other-form {
+    width: 100%;
+    margin: 1rem;
+    padding-right: 2rem;
+  }
+
+  #email {
+    width: 100%;
+    padding: 1rem 0;
+  }
+
+  #message {
+    width: 100%;
+    padding-bottom: 3rem;
+  }
+}
+// Contact Form Desktop
+@media screen and (min-width: 1301px) {
+  #contact-form {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  label {
+    font-family: $sans-serif;
+    font-size: 1.3rem;
+  }
+
+  #name-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .name-input {
+    margin: 1rem;
+    width: 50%;
+
+    input {
+      width: 100%;
+      padding: 1rem 1rem;
+      font-size: 1rem;
+    }
+  }
+
+  #other-form {
+    width: 100%;
+    margin: 1rem;
+    padding-right: 2rem;
+  }
+
+  #email {
+    width: 100%;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+  }
+
+  #message {
+    width: 100%;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+  }
+}
+
+

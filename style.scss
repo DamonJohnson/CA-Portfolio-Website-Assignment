@@ -92,6 +92,7 @@ $sans-serif: "Roboto Condensed", sans-serif;
             background: none;
             display: flex;
             align-items: flex-end;
+            justify-content: space-between;
             z-index: 2;
             color: $secondarycolor;
             font-family: $sans-serif;
@@ -99,7 +100,7 @@ $sans-serif: "Roboto Condensed", sans-serif;
 
             ul {
                 margin-left: 2vw;
-                padding-right: 1rem;
+                padding-right: 02em;
                 flex: 20vw;
                 display: flex;
             
@@ -120,7 +121,7 @@ $sans-serif: "Roboto Condensed", sans-serif;
                     position: relative;
                     font-size: 2vh;
                     bottom: -100px;
-                    right: rem;
+                    right: 0.4rem;
                     opacity: 0;
                 }
                 }
@@ -153,7 +154,7 @@ $sans-serif: "Roboto Condensed", sans-serif;
         h2 {
             font-size: 5vh;
             font-family: $sans-serif;
-            margin: 10vh 0 5vh 10vh;
+            margin: 10vh 0 5vh 5vh;
         }
 
         #article-container {

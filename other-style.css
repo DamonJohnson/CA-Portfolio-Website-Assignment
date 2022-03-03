@@ -126,27 +126,32 @@ iframe {
     border-radius: 5rem;
   }
 }
-#blog1-body {
-  background-image: url(images/iceland.jpg);
-}
-
-#blog2-body {
-  background-image: url(images/argentina.jpg);
-}
-
-#blog3-body {
-  background-image: url(images/korea.jpg);
-}
-
-#blog4-body {
-  background-image: url(images/turkey.jpg);
-}
-
-#blog5-body {
-  background-image: url(images/desert.jpg);
-}
-
 @media screen and (min-width: 901px) {
+  #blog1-body {
+    background-image: url(images/iceland.jpg);
+    background-repeat: no-repeat;
+  }
+
+  #blog2-body {
+    background-image: url(images/argentina.jpg);
+    background-repeat: no-repeat;
+  }
+
+  #blog3-body {
+    background-image: url(images/korea.jpg);
+    background-repeat: no-repeat;
+  }
+
+  #blog4-body {
+    background-image: url(images/turkey.jpg);
+    background-repeat: no-repeat;
+  }
+
+  #blog5-body {
+    background-image: url(images/desert.jpg);
+    background-repeat: no-repeat;
+  }
+
   .blog-heading {
     font-family: "Roboto Condensed", sans-serif;
     color: seashell;
@@ -209,6 +214,26 @@ iframe {
   }
 }
 @media screen and (max-width: 900px) {
+  #blog1-body {
+    background-image: url(images/iceland.jpg);
+  }
+
+  #blog2-body {
+    background-image: url(images/argentina.jpg);
+  }
+
+  #blog3-body {
+    background-image: url(images/korea.jpg);
+  }
+
+  #blog4-body {
+    background-image: url(images/turkey.jpg);
+  }
+
+  #blog5-body {
+    background-image: url(images/desert.jpg);
+  }
+
   .blog-heading {
     margin-left: 0;
     font-family: "Roboto Condensed", sans-serif;

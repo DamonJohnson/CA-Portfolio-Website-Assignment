@@ -153,33 +153,35 @@ iframe {
   }
 }
 
+ //Blog backgrounds
+ 
+#blog1-body {
+  background-image: url(images/iceland.jpg);
+  background-attachment: fixed;
+
+}
+#blog2-body {
+  background-image: url(images/argentina.jpg);
+  background-attachment: fixed;
+ 
+}
+#blog3-body {
+  background-image: url(images/korea.jpg);
+  background-attachment: fixed;
+}
+#blog4-body {
+  background-image: url(images/turkey.jpg);
+  background-attachment: fixed;
+}
+#blog5-body {
+  background-image: url(images/desert.jpg);
+  background-attachment: fixed;
+}
 
 
 // Blog Styling for Desktop
 @media screen and (min-width: 901px) {
 
-  //Blog backgrounds for desktop (no repeat)
-#blog1-body {
-  background-image: url(images/iceland.jpg);
-  background-repeat: no-repeat;
-  
-}
-#blog2-body {
-  background-image: url(images/argentina.jpg);
-  background-repeat: no-repeat;
-}
-#blog3-body {
-  background-image: url(images/korea.jpg);
-  background-repeat: no-repeat;
-}
-#blog4-body {
-  background-image: url(images/turkey.jpg);
-   background-repeat: no-repeat;
-}
-#blog5-body {
-  background-image: url(images/desert.jpg);
-  background-repeat: no-repeat;
-}
   .blog-heading {
     font-family: $sans-serif;
     color: $secondarycolor;
@@ -243,28 +245,11 @@ iframe {
   }
 }
 
+
 // Blog Styling for Mobile and Tablet
 
 @media screen and (max-width: 900px) {
 
- //Blog backgrounds for mobile (repeat on)
-#blog1-body {
-  background-image: url(images/iceland.jpg);
-
-}
-#blog2-body {
-  background-image: url(images/argentina.jpg);
- 
-}
-#blog3-body {
-  background-image: url(images/korea.jpg);
-}
-#blog4-body {
-  background-image: url(images/turkey.jpg);
-}
-#blog5-body {
-  background-image: url(images/desert.jpg);
-}
  
   .blog-heading {
     margin-left: 0;

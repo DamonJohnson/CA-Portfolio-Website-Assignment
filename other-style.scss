@@ -154,7 +154,7 @@ iframe {
 }
 
  //Blog backgrounds
- 
+
 #blog1-body {
   background-image: url(images/iceland.jpg);
   background-attachment: fixed;
@@ -193,7 +193,15 @@ iframe {
     color: $secondarycolor;
     margin-left: 8rem;
   }
-  
+
+   #blog-image {
+    width: 80%;
+    position: relative;
+    left: 10%;
+    border-radius: 2rem;
+    margin-top: 2rem;
+  }
+    
   .blog-container {
     width: 100%;
     display: flex;
@@ -210,6 +218,7 @@ iframe {
       color: $secondarycolor;
       padding: 1rem;
       border-radius: 2rem;
+      text-align: justify;
   }
 
   .blog-para {
@@ -262,6 +271,13 @@ iframe {
     font-family: $sans-serif;
     color: $secondarycolor;
   }
+
+  #blog-image {
+    width: 90%;
+    border-radius: 2rem;
+    position: relative;
+    left: 5%;
+  }
   
   .blog-container {
     width: 100%;
@@ -276,12 +292,14 @@ iframe {
       color: $secondarycolor;
       padding: 1rem;
       padding-bottom: 0rem;
+    
   }
 
   .blog-para {
     margin-left: 0rem;
     width: 100%;
     padding: 1rem;
+    text-align: justify;
   }
 
 

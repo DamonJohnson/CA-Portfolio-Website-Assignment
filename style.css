@@ -38,12 +38,12 @@
   }
   * #hero #my-info {
     z-index: 2;
-    font-family: "Vesper Libre", "Gideon Roman", serif;
+    font-family: "Roboto Condensed", sans-serif;
     text-align: center;
     margin-bottom: 15%;
   }
   * #hero #my-info h1 {
-    color: seashell;
+    color: white;
     padding: 1rem;
     font-size: 4vh;
   }
@@ -96,17 +96,20 @@
     right: 0.4rem;
     opacity: 0;
   }
-  * #hero #video-container .skills-tabs-container ul li:hover, * #hero #video-container .skills-tabs-container ul li:active {
+  * #hero #video-container .skills-tabs-container ul li:hover,
+* #hero #video-container .skills-tabs-container ul li:active {
     padding: 0 3vw 1vw 2vw;
     transition: 4s;
     margin-bottom: 0;
   }
-  * #hero #video-container .skills-tabs-container ul li:hover h4, * #hero #video-container .skills-tabs-container ul li:active h4 {
+  * #hero #video-container .skills-tabs-container ul li:hover h4,
+* #hero #video-container .skills-tabs-container ul li:active h4 {
     padding-top: 0;
     margin-bottom: 0;
     transition: 0.8s;
   }
-  * #hero #video-container .skills-tabs-container ul li:hover .skill-text, * #hero #video-container .skills-tabs-container ul li:active .skill-text {
+  * #hero #video-container .skills-tabs-container ul li:hover .skill-text,
+* #hero #video-container .skills-tabs-container ul li:active .skill-text {
     opacity: 1;
     transition: 1s;
     bottom: 0px;
@@ -126,7 +129,7 @@
   }
   * #blog-section #article-container .blog-article {
     position: relative;
-    width: 350px;
+    width: 300px;
   }
   * #blog-section #article-container .blog-article img {
     width: 100%;
@@ -136,7 +139,7 @@
     margin-bottom: 1vh;
   }
   * #blog-section #article-container .blog-article .blog-article:hover {
-    width: 420px;
+    width: 315px;
     transition: 0.3s;
   }
   * #blog-section #article-container .blog-article .article-text {
@@ -152,7 +155,7 @@
     border-bottom-right-radius: 20px;
   }
   * #blog-section #article-container .blog-article .article-text h4 {
-    font-family: "Vesper Libre", "Gideon Roman", serif, serif;
+    font-family: "Roboto Condensed", sans-serif;
     color: seashell;
     font-size: 2rem;
   }
@@ -206,12 +209,12 @@
   }
   * #hero #my-info {
     z-index: 2;
-    font-family: "Vesper Libre", "Gideon Roman", serif;
+    font-family: "Roboto Condensed", sans-serif;
     text-align: center;
     margin-bottom: 15%;
   }
   * #hero #my-info h1 {
-    color: seashell;
+    color: white;
     padding-top: 5rem;
     font-size: 4vh;
   }
@@ -287,7 +290,7 @@
   }
   * #blog-section #article-container .blog-article {
     position: relative;
-    width: 350px;
+    width: 300px;
   }
   * #blog-section #article-container .blog-article img {
     width: 100%;
@@ -312,12 +315,12 @@
     text-decoration: none;
   }
   * #blog-section #article-container .blog-article .article-text h4 {
-    font-family: "Vesper Libre", "Gideon Roman", serif, serif;
+    font-family: "Roboto Condensed", sans-serif;
     color: seashell;
     font-size: 2rem;
   }
   * #blog-section #article-container .blog-article .article-text .blog-article:hover {
-    width: 400px;
+    width: 315px;
     transition: 0.3s;
   }
   * #social-links {
@@ -370,12 +373,12 @@
   }
   * #hero #my-info {
     z-index: 2;
-    font-family: "Vesper Libre", "Gideon Roman", serif;
+    font-family: "Roboto Condensed", sans-serif;
     text-align: center;
     margin-bottom: 15%;
   }
   * #hero #my-info h1 {
-    color: seashell;
+    color: white;
     padding: 1rem;
     font-size: 6vh;
   }
@@ -454,7 +457,7 @@
   }
   * #blog-section #article-container .blog-article {
     position: relative;
-    width: 400px;
+    width: 300px;
   }
   * #blog-section #article-container .blog-article img {
     width: 100%;
@@ -479,12 +482,12 @@
     text-decoration: none;
   }
   * #blog-section #article-container .blog-article .article-text h4 {
-    font-family: "Vesper Libre", "Gideon Roman", serif, serif;
+    font-family: "Roboto Condensed", sans-serif;
     color: seashell;
     font-size: 2rem;
   }
   * #blog-section #article-container .blog-article:hover {
-    width: 420px;
+    width: 315px;
     transition: 0.3s;
   }
   * #social-links {

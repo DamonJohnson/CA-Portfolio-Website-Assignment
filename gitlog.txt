@@ -1,0 +1,114 @@
+commit a6fd2765126ae92fdf4b174fc82ba03156530ff3
+Author: damon johnson <damon-johnson@outlook.com>
+Date:   Sun Mar 6 21:29:26 2022 +1000
+
+    Readme.md updated
+
+commit 3f526643a78eaab0929b2a4b4bca9ba096d076f9
+Author: damon johnson <damon-johnson@outlook.com>
+Date:   Sun Mar 6 19:44:29 2022 +1000
+
+    html validated
+
+commit 2803c8e6e21d237ba3aedb68218c6c2778e4829a
+Author: damon johnson <damon-johnson@outlook.com>
+Date:   Fri Mar 4 17:24:13 2022 +1000
+
+    change root folder
+
+commit 5afddb047c589e402cf1cc421c074f73a1aaf817
+Merge: dbfafee 1c6b186
+Author: damon johnson <damon-johnson@outlook.com>
+Date:   Fri Mar 4 16:35:49 2022 +1000
+
+    Merge branch 'master' of https://github.com/DamonJohnson/portfolio
+
+commit dbfafeec3917229d91a33a0871feba8db37f77de
+Author: damon johnson <damon-johnson@outlook.com>
+Date:   Fri Mar 4 16:35:03 2022 +1000
+
+    added photos to blog articles
+
+commit 8468debe3d8964af29849f7926b43845f4ee6880
+Author: damon johnson <damon-johnson@outlook.com>
+Date:   Fri Mar 4 16:30:47 2022 +1000
+
+    added photos to blogs
+
+commit 4cbc61fcf351c4de76d19838cf6cf7b2f895633e
+Author: damon johnson <damon-johnson@outlook.com>
+Date:   Fri Mar 4 14:54:06 2022 +1000
+
+    Edited readme
+
+commit 1c6b1864cddc32050126b86eeff9034a73bade75
+Author: DamonJohnson <85825667+DamonJohnson@users.noreply.github.com>
+Date:   Fri Mar 4 14:53:05 2022 +1000
+
+    Update ReadMe.md
+
+commit ae52be3a1cc1f5a86e8ba128dc3872ea7272dbef
+Author: DamonJohnson <85825667+DamonJohnson@users.noreply.github.com>
+Date:   Fri Mar 4 14:52:44 2022 +1000
+
+    Update ReadMe.md
+
+commit b50a99c88e04025d34cce04a52bbdb3fb02fe7c0
+Author: damon johnson <damon-johnson@outlook.com>
+Date:   Fri Mar 4 14:45:28 2022 +1000
+
+    fixed backgrounds for mobile and tablet
+
+commit c8eff19827e491292e59cad97f4dca15f92b2774
+Author: damon johnson <damon-johnson@outlook.com>
+Date:   Thu Mar 3 19:21:48 2022 +1000
+
+    non repeating blog backgrounds for desktop
+
+commit e49d718e9a043a6c87876325564d6d94434cab39
+Author: damon johnson <damon-johnson@outlook.com>
+Date:   Thu Mar 3 19:11:02 2022 +1000
+
+    fixed responsiveness issues for hero banner
+
+commit d44e22d3839e053a8553b6efeb8ecb68f937f452
+Author: damon johnson <damon-johnson@outlook.com>
+Date:   Thu Mar 3 18:54:09 2022 +1000
+
+    added styling to blog pages
+
+commit 362488967a295516512cd36c9997184443e279a6
+Author: damon johnson <damon-johnson@outlook.com>
+Date:   Thu Mar 3 14:43:16 2022 +1000
+
+    added 5th blog page
+
+commit bf658276841e7ec08b106630ae099ca8f73f8f22
+Author: damon johnson <damon-johnson@outlook.com>
+Date:   Wed Mar 2 15:33:07 2022 +1000
+
+    added subsidiary pages
+
+commit 9d8c61b449c8406877d4d5f2b9021a2d2d94bccf
+Author: damon johnson <damon-johnson@outlook.com>
+Date:   Tue Mar 1 15:43:28 2022 +1000
+
+    fixed blog section responsiveness
+
+commit fd1ebbe29d5ea88492373082bd76d0fb30a25a12
+Author: damon johnson <damon-johnson@outlook.com>
+Date:   Tue Mar 1 13:37:30 2022 +1000
+
+    fixed blog for desktop
+
+commit 97af50a42ceac74a711106b52ffb42bbe6d15c11
+Author: damon johnson <damon-johnson@outlook.com>
+Date:   Tue Mar 1 12:04:27 2022 +1000
+
+    responsiveness v1
+
+commit 06bf8b86f0f763101eb750d8c07aacaf6072bb29
+Author: damon johnson <damon-johnson@outlook.com>
+Date:   Mon Feb 28 15:42:17 2022 +1000
+
+    initia; commit

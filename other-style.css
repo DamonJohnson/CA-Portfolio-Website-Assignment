@@ -2,8 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Vesper+Libre:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Vesper+Libre:wght@700&display=swap");
-
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -12,6 +10,11 @@
 
 p {
   font-size: 1.3rem;
+}
+
+a {
+  text-decoration: none;
+  color: seashell;
 }
 
 nav {
@@ -62,7 +65,7 @@ footer {
 h1 {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 3rem;
-  margin: 0rem 0rem 1rem 10vw;
+  padding-left: 3rem;
   padding-top: 6rem;
 }
 
@@ -93,14 +96,19 @@ iframe {
 
   .other-para {
     font-family: "Roboto Condensed", sans-serif;
-    width: 100%;
+    width: 90%;
     padding: 0rem 0rem;
     order: 2;
   }
 
+  #img-container {
+    width: 50%;
+    margin: auto;
+  }
+
   #profile-pic {
     order: 3;
-    width: 300px;
+    width: 100%;
     padding: 1rem;
     border-radius: 4rem;
   }
@@ -117,47 +125,101 @@ iframe {
   .other-para {
     order: 1;
     font-family: "Roboto Condensed", sans-serif;
-    width: 70%;
-    padding: 0rem 2rem;
+    width: 90%;
+    padding-left: 3rem;
+  }
+
+  #img-container {
+    box-sizing: border-box;
+    margin: auto;
+    padding: 0;
+    width: 100%;
   }
 
   #profile-pic {
-    order: 2;
-    width: 400px;
-    padding: 2rem;
-    border-radius: 5rem;
+    display: block;
+    box-sizing: border-box;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 }
-#blog1-body {
-  background-image: url(images/iceland.jpg);
-  background-attachment: fixed;
-}
+@media screen and (min-width: 301px) {
+  #img-container {
+    box-sizing: border-box;
+    margin: auto;
+    padding: 0;
+    width: 100%;
+  }
 
-#blog2-body {
-  background-image: url(images/argentina.jpg);
-  background-attachment: fixed;
-}
+  #profile-pic {
+    display: block;
+    box-sizing: border-box;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
 
-#blog3-body {
-  background-image: url(images/korea.jpg);
-  background-attachment: fixed;
-}
+  #blog1-body {
+    background-image: url(images/iceland.jpg);
+    background-attachment: fixed;
+  }
 
-#blog4-body {
-  background-image: url(images/turkey.jpg);
-  background-attachment: fixed;
-}
+  #blog2-body {
+    background-image: url(images/argentina.jpg);
+    background-attachment: fixed;
+  }
 
-#blog5-body {
-  background-image: url(images/desert.jpg);
-  background-attachment: fixed;
-}
+  #blog3-body {
+    background-image: url(images/korea.jpg);
+    background-attachment: fixed;
+  }
 
-@media screen and (min-width: 901px) {
+  #blog4-body {
+    background-image: url(images/turkey.jpg);
+    background-attachment: fixed;
+  }
+
+  #blog5-body {
+    background-image: url(images/desert.jpg);
+    background-attachment: fixed;
+  }
+}
+@media screen and (min-width: 301px) and (min-width: 901px) {
+  h1 {
+    margin-left: 3rem;
+  }
+
+  #about-me-body {
+    position: relative;
+    margin-right: 40vw;
+    margin-top: -400px;
+  }
+
+  #img-container {
+    width: 0;
+    margin-right: 30vw;
+    padding: 2rem;
+  }
+
+  #profile-pic {
+    box-sizing: border-box;
+    width: 320px;
+    margin-left: 70%;
+    margin-right: 30;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
   .blog-heading {
     font-family: "Roboto Condensed", sans-serif;
     color: seashell;
     margin-left: 8rem;
+    padding-left: 0rem;
   }
 
   h4 {
@@ -199,6 +261,14 @@ iframe {
     padding: 4rem;
   }
 
+  #project-ul {
+    font-size: 1.3rem;
+    margin-left: 4rem;
+    padding-left: 5rem;
+    margin-top: -4rem;
+    padding-bottom: 4rem;
+  }
+
   .buttons {
     display: flex;
     justify-content: center;
@@ -224,7 +294,7 @@ iframe {
     color: seashell;
   }
 }
-@media screen and (max-width: 900px) {
+@media screen and (min-width: 301px) and (max-width: 900px) {
   .blog-heading {
     margin-left: 0;
     font-family: "Roboto Condensed", sans-serif;
@@ -291,7 +361,7 @@ iframe {
     color: seashell;
   }
 }
-@media screen and (max-width: 1300px) {
+@media screen and (min-width: 301px) and (max-width: 1300px) {
   label {
     font-family: "Roboto Condensed", sans-serif;
     font-size: 1.3rem;
@@ -328,7 +398,7 @@ iframe {
     padding-bottom: 3rem;
   }
 }
-@media screen and (min-width: 1301px) {
+@media screen and (min-width: 301px) and (min-width: 1301px) {
   #contact-form {
     width: 80%;
     margin-left: 10%;

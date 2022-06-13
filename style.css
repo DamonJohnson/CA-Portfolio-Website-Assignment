@@ -129,7 +129,7 @@
   }
   * #blog-section #article-container .blog-article {
     position: relative;
-    width: 300px;
+    width: 340px;
   }
   * #blog-section #article-container .blog-article img {
     width: 100%;
@@ -139,7 +139,7 @@
     margin-bottom: 1vh;
   }
   * #blog-section #article-container .blog-article .blog-article:hover {
-    width: 315px;
+    width: 360px;
     transition: 0.3s;
   }
   * #blog-section #article-container .blog-article .article-text {
@@ -216,12 +216,12 @@
   * #hero #my-info h1 {
     color: white;
     padding-top: 5rem;
-    font-size: 4vh;
+    font-size: 5vh;
   }
   * #hero #my-info h3 {
     color: seashell;
     padding: 1rem;
-    font-size: 3vh;
+    font-size: 4vh;
   }
   * #hero #video-container {
     position: absolute;
@@ -290,7 +290,7 @@
   }
   * #blog-section #article-container .blog-article {
     position: relative;
-    width: 300px;
+    width: 340px;
   }
   * #blog-section #article-container .blog-article img {
     width: 100%;
@@ -320,7 +320,7 @@
     font-size: 2rem;
   }
   * #blog-section #article-container .blog-article .article-text .blog-article:hover {
-    width: 315px;
+    width: 360px;
     transition: 0.3s;
   }
   * #social-links {
@@ -339,6 +339,12 @@
   }
 }
 @media screen and (min-width: 1001px) {
+  * #waves {
+    -moz-transform: zoom(0.4);
+    -webkit-transform: zoom(0.4);
+    -o-transform: zoom(0.4);
+    -ms-transform: zoom(0.4);
+  }
   * nav {
     z-index: 1;
     position: absolute;
@@ -380,12 +386,12 @@
   * #hero #my-info h1 {
     color: white;
     padding: 1rem;
-    font-size: 6vh;
+    font-size: 8vh;
   }
   * #hero #my-info h3 {
-    color: seashell;
+    color: white;
     padding: 1rem;
-    font-size: 5vh;
+    font-size: 7vh;
   }
   * #hero #video-container {
     position: absolute;
@@ -457,7 +463,7 @@
   }
   * #blog-section #article-container .blog-article {
     position: relative;
-    width: 300px;
+    width: 340px;
   }
   * #blog-section #article-container .blog-article img {
     width: 100%;
@@ -487,7 +493,7 @@
     font-size: 2rem;
   }
   * #blog-section #article-container .blog-article:hover {
-    width: 315px;
+    width: 360px;
     transition: 0.3s;
   }
   * #social-links {

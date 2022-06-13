@@ -94,6 +94,7 @@ h1 {
 
 // Resume Page Styling
 #download-link {
+  color: black;
   font-family: $sans-serif;
   padding-bottom: 1rem;
   margin-left: 10vw;
@@ -203,26 +204,20 @@ iframe {
  //Blog backgrounds
 
 #blog1-body {
-  background-image: url(images/iceland.jpg);
+  background-image: url(images/wallpaper1.png);
   background-attachment: fixed;
 
 }
 #blog2-body {
-  background-image: url(images/argentina.jpg);
+  background-image: url(images/wallpaper1.png);
   background-attachment: fixed;
  
 }
 #blog3-body {
-  background-image: url(images/korea.jpg);
+  background-image: url(images/wallpaper1.png);
   background-attachment: fixed;
 }
-#blog4-body {
-  background-image: url(images/turkey.jpg);
-  background-attachment: fixed;
-}
-#blog5-body {
-  background-image: url(images/desert.jpg);
-  background-attachment: fixed;
+
 }
 
 
@@ -333,7 +328,7 @@ iframe {
   }
 
   button:hover {
-    background-color: rgb(193, 193, 193);
+    background-color: rgb(1, 1, 163);
     color: $secondarycolor;
   }
 }
@@ -408,7 +403,7 @@ iframe {
   }
 
   button:hover {
-    background-color: rgb(193, 193, 193);
+    background-color: rgb(1, 1, 163);
     color: $secondarycolor;
   }
 }
@@ -497,5 +492,5 @@ iframe {
     font-size: 1rem;
   }
 }
-}
+
 

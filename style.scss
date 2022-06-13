@@ -76,6 +76,8 @@ $sans-serif: "Roboto Condensed", sans-serif;
                 }
             }
 
+            
+
             #video-container {
                 position: absolute;
                 top: 0;
@@ -168,8 +170,7 @@ $sans-serif: "Roboto Condensed", sans-serif;
 
                 .blog-article {
                     position: relative;
-                    // width: calc(100%/5);
-                    width: 300px;
+                    width: 340px;
 
                     img {
                         width: 100%;
@@ -180,7 +181,7 @@ $sans-serif: "Roboto Condensed", sans-serif;
                     }
 
                     .blog-article:hover {
-                        width: 315px;
+                        width: 360px;
                         transition: 0.3s;
                     }
 
@@ -278,13 +279,13 @@ $sans-serif: "Roboto Condensed", sans-serif;
                 h1 {
                     color: white;
                     padding-top: 5rem;
-                    font-size: 4vh;
+                    font-size: 5vh;
                 }
 
                 h3 {
                     color: $secondarycolor;
                     padding: 1rem;
-                    font-size: 3vh;
+                    font-size: 4vh;
                 }
             }
 
@@ -369,7 +370,7 @@ $sans-serif: "Roboto Condensed", sans-serif;
 
                 .blog-article {
                     position: relative;
-                    width: 300px;
+                    width: 340px;
 
                     img {
                         width: 100%;
@@ -402,7 +403,7 @@ $sans-serif: "Roboto Condensed", sans-serif;
                         }
 
                         .blog-article:hover {
-                            width: 315px;
+                            width: 360px;
                             transition: 0.3s;
                         }
                     }
@@ -434,6 +435,13 @@ $sans-serif: "Roboto Condensed", sans-serif;
 
     // Media Query for Desktops
     @media screen and (min-width: 1001px) {
+        
+        #waves {
+                -moz-transform: zoom(0.4);
+                -webkit-transform: zoom(0.4);
+                -o-transform: zoom(0.4);
+                -ms-transform: zoom(0.4);  
+            }
 
         // Navbar styling
         nav {
@@ -482,13 +490,12 @@ $sans-serif: "Roboto Condensed", sans-serif;
                 h1 {
                     color: white;
                     padding: 1rem;
-                    font-size: 6vh;
+                    font-size: 8vh;
                 }
-
                 h3 {
-                    color: $secondarycolor;
+                    color: white;
                     padding: 1rem;
-                    font-size: 5vh;
+                    font-size: 7vh;
                 }
             }
 
@@ -577,7 +584,7 @@ $sans-serif: "Roboto Condensed", sans-serif;
 
                 .blog-article {
                     position: relative;
-                    width: 300px;
+                    width: 340px;
 
 
                     img {
@@ -613,7 +620,7 @@ $sans-serif: "Roboto Condensed", sans-serif;
                 }
 
                 .blog-article:hover {
-                    width: 315px;
+                    width: 360px;
                     transition: 0.3s;
                 }
 

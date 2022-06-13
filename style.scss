@@ -57,7 +57,6 @@ body {
             display: flex;
             align-items: center;
             justify-content: center;
-            overflow: hidden;
             z-index: 0;
 
             #my-info {
@@ -83,8 +82,6 @@ body {
 
             #video-container {
                 position: absolute;
-                top: 0;
-                left: 0;
                 z-index: 0;
             }
         }
@@ -204,7 +201,6 @@ body {
             display: flex;
             align-items: center;
             justify-content: center;
-            overflow: hidden;
             z-index: 0;
 
             #my-info {
@@ -228,8 +224,6 @@ body {
 
             #video-container {
                 position: absolute;
-                top: 0;
-                left: 0;
                 z-index: 0;
             }
         }
@@ -237,6 +231,7 @@ body {
         // Blog Section
         #blog-section {
             h2 {
+                color: $secondarycolor;
                 font-size: 5vh;
                 font-family: $sans-serif;
                 margin: 10vh 0 5vh 10vh;
@@ -318,12 +313,6 @@ body {
     // Media Query for Desktops
     @media screen and (min-width: 1001px) {
         
-        #waves {
-                -moz-transform: zoom(0.4);
-                -webkit-transform: zoom(0.4);
-                -o-transform: zoom(0.4);
-                -ms-transform: zoom(0.4);  
-            }
 
         // Navbar styling
         nav {
@@ -360,31 +349,28 @@ body {
             display: flex;
             align-items: center;
             justify-content: center;
-            overflow: hidden;
             z-index: 0;
 
             #my-info {
                 z-index: 2;
                 font-family: $sans-serif;
-                text-align: center;
-                margin-bottom: 15%;
+                margin-right: 37vw;
+                margin-top: 45vh;
 
                 h1 {
                     color: white;
                     padding: 1rem;
-                    font-size: 8vh;
+                    font-size: 11vh;
                 }
                 h3 {
                     color: white;
                     padding: 1rem;
-                    font-size: 7vh;
+                    font-size: 8vh;
                 }
             }
 
             #video-container {
                 position: absolute;
-                top: 0;
-                left: 0;
                 z-index: 0;
             }
         }

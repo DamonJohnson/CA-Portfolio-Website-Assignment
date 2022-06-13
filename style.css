@@ -37,7 +37,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
     z-index: 0;
   }
   * #hero #my-info {
@@ -58,8 +57,6 @@ body {
   }
   * #hero #video-container {
     position: absolute;
-    top: 0;
-    left: 0;
     z-index: 0;
   }
   * #blog-section h2 {
@@ -152,7 +149,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
     z-index: 0;
   }
   * #hero #my-info {
@@ -173,11 +169,10 @@ body {
   }
   * #hero #video-container {
     position: absolute;
-    top: 0;
-    left: 0;
     z-index: 0;
   }
   * #blog-section h2 {
+    color: white;
     font-size: 5vh;
     font-family: "Roboto Condensed", sans-serif;
     margin: 10vh 0 5vh 10vh;
@@ -241,12 +236,6 @@ body {
   }
 }
 @media screen and (min-width: 1001px) {
-  * #waves {
-    -moz-transform: zoom(0.4);
-    -webkit-transform: zoom(0.4);
-    -o-transform: zoom(0.4);
-    -ms-transform: zoom(0.4);
-  }
   * nav {
     z-index: 1;
     position: absolute;
@@ -276,29 +265,26 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
     z-index: 0;
   }
   * #hero #my-info {
     z-index: 2;
     font-family: "Roboto Condensed", sans-serif;
-    text-align: center;
-    margin-bottom: 15%;
+    margin-right: 37vw;
+    margin-top: 45vh;
   }
   * #hero #my-info h1 {
     color: white;
     padding: 1rem;
-    font-size: 8vh;
+    font-size: 11vh;
   }
   * #hero #my-info h3 {
     color: white;
     padding: 1rem;
-    font-size: 7vh;
+    font-size: 8vh;
   }
   * #hero #video-container {
     position: absolute;
-    top: 0;
-    left: 0;
     z-index: 0;
   }
   * #blog-section h2 {

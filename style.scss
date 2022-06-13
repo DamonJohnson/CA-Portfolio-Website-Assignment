@@ -7,10 +7,13 @@
 
 // Variable declaration
 $primarycolor: black;
-$secondarycolor: seashell;
-$backdrop: #656565cb;
+$secondarycolor: white;
 $cursive: "Vesper Libre", "Gideon Roman", serif;
 $sans-serif: "Roboto Condensed", sans-serif;
+
+body {
+    background-color: black;
+}
 
 * {
     box-sizing: border-box;
@@ -83,72 +86,6 @@ $sans-serif: "Roboto Condensed", sans-serif;
                 top: 0;
                 left: 0;
                 z-index: 0;
-
-                // Development Skills at bottom of hero video
-                .skills-tabs-container {
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    height: 100vh;
-                    width: 100vw;
-                    background: none;
-                    display: flex;
-                    align-items: flex-end;
-                    justify-content: space-between;
-                    z-index: 2;
-                    color: $secondarycolor;
-                    font-family: $sans-serif;
-                    font-size: 2vh;
-
-                    ul {
-                        margin-left: 2vw;
-                        padding-right: 02em;
-                        flex: 20vw;
-                        display: flex;
-
-
-                        li {
-                            position: relative;
-                            list-style: none;
-                            padding: 0 3vw 0 2vw;
-                            width: 20vw;
-
-
-                            h4 {
-                                margin-bottom: -20vh;
-                                padding-top: 8em;
-                            }
-
-                            .skill-text {
-                                position: relative;
-                                font-size: 2vh;
-                                bottom: -100px;
-                                right: 0.4rem;
-                                opacity: 0;
-                            }
-                        }
-
-                        li:hover,
-                        li:active {
-                            padding: 0 3vw 1vw 2vw;
-                            transition: 4s;
-                            margin-bottom: 0;
-
-                            h4 {
-                                padding-top: 0;
-                                margin-bottom: 0;
-                                transition: 0.8s;
-                            }
-
-                            .skill-text {
-                                opacity: 1;
-                                transition: 1s;
-                                bottom: 0px;
-                            }
-
-                        }
-                    }
-                }
             }
         }
 
@@ -277,7 +214,7 @@ $sans-serif: "Roboto Condensed", sans-serif;
                 margin-bottom: 15%;
 
                 h1 {
-                    color: white;
+                    color: $secondarycolor;
                     padding-top: 5rem;
                     font-size: 5vh;
                 }
@@ -294,61 +231,6 @@ $sans-serif: "Roboto Condensed", sans-serif;
                 top: 0;
                 left: 0;
                 z-index: 0;
-
-                // Development Skills at bottom of hero video
-                .skills-tabs-container {
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    height: 100vh;
-                    width: 100vw;
-                    background: none;
-                    display: flex;
-                    align-items: flex-end;
-                    z-index: 2;
-                    color: $secondarycolor;
-                    font-family: $sans-serif;
-                    font-size: 2.5vh;
-
-                    ul {
-                        margin-left: 2vw;
-                        flex: 20vw;
-                        display: flex;
-                        justify-content: space-around;
-
-                        li {
-                            list-style: none;
-                            padding: 0 0vw 0 0vw;
-                            width: 20vw;
-
-                            h4 {
-                                padding-top: 0rem;
-                            }
-
-                            .skill-text {
-                                font-size: 2.5vh;
-                                opacity: 0;
-                            }
-                        }
-
-                        li:hover {
-                            padding: 0 2vw 1vw 2vw;
-                            transition: 4s;
-                            margin-bottom: 0;
-
-                            h4 {
-                                padding-top: 0;
-                                margin-bottom: 0;
-                                transition: 0.6s;
-                            }
-
-                            .skill-text {
-                                opacity: 1;
-                                transition: s;
-                            }
-                        }
-                    }
-                }
             }
         }
 
@@ -504,63 +386,6 @@ $sans-serif: "Roboto Condensed", sans-serif;
                 top: 0;
                 left: 0;
                 z-index: 0;
-
-                // Development Skills at bottom of hero video
-                .skills-tabs-container {
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    height: 100vh;
-                    width: 100vw;
-                    background: none;
-                    display: flex;
-                    align-items: flex-end;
-                    z-index: 2;
-                    color: $secondarycolor;
-                    font-family: $sans-serif;
-                    font-size: 2.5vh;
-
-                    ul {
-                        margin-left: 2vw;
-                        flex: 20vw;
-                        display: flex;
-                        justify-content: space-around;
-
-                        li {
-                            position: relative;
-                            list-style: none;
-                            padding: 0 2vw 0 2vw;
-                            width: 20vw;
-
-                            h4 {
-                                margin-bottom: -4vh;
-                                padding-top: 4rem;
-                            }
-
-                            .skill-text {
-                                font-size: 2.5vh;
-                                opacity: 0;
-                            }
-                        }
-
-                        li:hover {
-                            padding: 0 2vw 1vw 2vw;
-                            transition: 4s;
-                            margin-bottom: 0;
-
-                            h4 {
-                                padding-top: 0;
-                                margin-bottom: 0;
-                                transition: 0.6s;
-                            }
-
-                            .skill-text {
-                                opacity: 1;
-                                transition: 1s;
-                            }
-                        }
-                    }
-                }
             }
         }
 

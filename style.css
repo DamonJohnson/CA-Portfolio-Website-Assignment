@@ -4,6 +4,10 @@ body {
   background-color: black;
 }
 
+p {
+  color: white;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -140,6 +144,9 @@ body {
     text-decoration: none;
     color: white;
   }
+  * #waves {
+    z-index: -1;
+  }
   * #hero {
     top: 0;
     left: 0;
@@ -149,7 +156,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 0;
+    z-index: -1;
   }
   * #hero #my-info {
     z-index: 2;
@@ -256,6 +263,9 @@ body {
     text-decoration: none;
     color: white;
   }
+  * #waves {
+    z-index: -1;
+  }
   * #hero {
     top: 0;
     left: 0;
@@ -265,13 +275,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 0;
+    z-index: -1;
   }
   * #hero #my-info {
     z-index: 2;
     font-family: "Roboto Condensed", sans-serif;
     margin-right: 37vw;
-    margin-top: 45vh;
+    margin-top: 57vh;
   }
   * #hero #my-info h1 {
     color: white;
@@ -285,12 +295,10 @@ body {
   }
   * #hero #video-container {
     position: absolute;
-    z-index: 0;
+    z-index: -1;
   }
-  * #blog-section h2 {
-    font-size: 5vh;
-    font-family: "Roboto Condensed", sans-serif;
-    margin: 10vh 0 5vh 10vh;
+  * #blog-section {
+    padding-top: 9rem;
   }
   * #blog-section #article-container {
     width: 100%;
@@ -340,7 +348,8 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
-    padding-top: 40vh;
+    padding-top: 8vh;
+    z-index: 2;
   }
   * #social-links a {
     padding: 15px;

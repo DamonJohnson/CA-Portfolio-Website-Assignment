@@ -28,7 +28,6 @@ nav {
   padding: 0.5rem;
   display: flex;
   font-family: "Roboto Condensed";
-  background-color: white;
   width: 100%;
 }
 nav ul {
@@ -42,7 +41,6 @@ nav ul li {
 }
 nav ul a {
   text-decoration: none;
-  color: black;
 }
 
 #social-links {
@@ -50,7 +48,7 @@ nav ul a {
   display: flex;
   justify-content: center;
   padding: 1rem;
-  padding-top: 25vh;
+  padding-top: 50vh;
 }
 #social-links a {
   padding: 15px;
@@ -260,7 +258,6 @@ iframe {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 5vw;
     padding-top: 9rem;
   }
 

@@ -47,7 +47,6 @@ nav {
   padding: 0.5rem;
   display: flex;
   font-family: "Roboto Condensed";
-  background-color: white;
   width: 100%;
 
   ul {
@@ -56,13 +55,13 @@ nav {
     margin-right: auto;
     align-items: center;
 
+
     li {
       padding: 0 0.8vw;
     }
 
     a {
       text-decoration: none;
-      color: $primarycolor;
     }
   }
 }
@@ -72,7 +71,7 @@ nav {
   display: flex;
   justify-content: center;
   padding: 1rem;
-  padding-top: 25vh;
+  padding-top: 50vh;
 
   a {
     padding: 15px;
@@ -310,7 +309,6 @@ iframe {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 5vw;
     padding-top: 9rem;
   }
 

@@ -23,6 +23,7 @@ p {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    text-decoration: none;
 
     // Media Query for Mobile Devices
     @media screen and (min-width: 1px) and (max-width: 600px) {
@@ -121,26 +122,9 @@ p {
                     .blog-article:hover {
                         width: 360px;
                         transition: 0.3s;
+
                     }
 
-                    .article-text {
-                        position: absolute;
-                        top: 53%;
-                        left: 0;
-                        width: auto;
-                        text-align: justify;
-                        z-index: 1;
-                        background-color: rgba(0, 0, 0, 0.571);
-                        padding: 1rem;
-                        border-top-right-radius: 20px;
-                        border-bottom-right-radius: 20px;
-
-                        h4 {
-                            font-family: $sans-serif;
-                            color: $secondarycolor;
-                            font-size: 2rem;
-                        }
-                    }
                 }
             }
         }

@@ -217,8 +217,8 @@ iframe {
     width: 80%;
     position: relative;
     left: 10%;
-    border-radius: 2rem;
     margin-top: 2rem;
+    padding-top: 1rem;
   }
 
   .blog-container {
@@ -283,19 +283,25 @@ iframe {
     margin-left: 0;
     font-family: "Roboto Condensed", sans-serif;
     color: white;
+    padding-left: 1rem;
+  }
+
+  #resume {
+    padding-left: 2rem;
   }
 
   h4 {
     margin-left: 0;
     font-family: "Roboto Condensed", sans-serif;
     color: white;
+    padding-left: 1rem;
   }
 
   #blog-image {
     width: 90%;
-    border-radius: 2rem;
     position: relative;
     left: 5%;
+    padding-top: 1rem;
   }
 
   .blog-container {
@@ -318,6 +324,11 @@ iframe {
     width: 100%;
     padding: 1rem;
     text-align: justify;
+  }
+
+  #project-ul {
+    padding-left: 2rem;
+    font-size: 1.3rem;
   }
 
   .buttons {

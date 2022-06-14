@@ -12,6 +12,7 @@ p {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  text-decoration: none;
 }
 @media screen and (min-width: 1px) and (max-width: 600px) {
   * nav {
@@ -90,23 +91,6 @@ p {
   * #blog-section #article-container .blog-article .blog-article:hover {
     width: 360px;
     transition: 0.3s;
-  }
-  * #blog-section #article-container .blog-article .article-text {
-    position: absolute;
-    top: 53%;
-    left: 0;
-    width: auto;
-    text-align: justify;
-    z-index: 1;
-    background-color: rgba(0, 0, 0, 0.571);
-    padding: 1rem;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-  }
-  * #blog-section #article-container .blog-article .article-text h4 {
-    font-family: "Roboto Condensed", sans-serif;
-    color: white;
-    font-size: 2rem;
   }
   * #social-links {
     width: 100%;

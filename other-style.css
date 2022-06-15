@@ -214,9 +214,9 @@ iframe {
   }
 
   #blog-image {
-    width: 80%;
+    width: 75%;
     position: relative;
-    left: 10%;
+    left: 8rem;
     margin-top: 2rem;
     padding-top: 1rem;
   }
